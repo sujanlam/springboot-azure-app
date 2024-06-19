@@ -11,7 +11,7 @@ public class SpringbootAzureApplication {
 
 	@GetMapping("/msg")
 	public String getMessage(){
-		return "This is the first part of the message!!! Also the second part!!!";
+		return "This is the first part of the message!!! Also the second part!!! Third???";
 	}
 
 	public static void main(String[] args) {
